@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.model.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="in.myproject.preferences.Preferences"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIdentityInfo"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension"/>
+    <fullyQualifiedTypeName name="in.myproject.Entity.Student"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="in.myproject.Service.StudentService"/>
+    <fullyQualifiedTypeName name="in.myproject.binding.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="in.myproject.entity.StudentEntity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.InitBinder"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="in.myproject.repository.StudentRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+</qualifiedTypeNameHistroy>

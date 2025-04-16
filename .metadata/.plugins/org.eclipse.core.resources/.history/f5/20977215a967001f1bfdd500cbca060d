@@ -1,0 +1,36 @@
+package in.myproject.controller;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import in.myproject.entity.Book;
+import in.myproject.repository.BookRepository;
+
+@Controller
+public class FindBook {
+	@Autowired
+	BookRepository repo;
+    @GetMapping("/book")
+	public ModelAndView FindBookById(@RequestParam("id") Integer id) {
+		ModelAndView m1 = new ModelAndView();
+		
+		try {
+			Optional<Book> byId = repo.findById(id);
+			Book b1 = byId.get();
+			m1.addObject("book", b1);
+			m1.setViewName("index");
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("No book is found.");
+			
+		}
+
+		return m1;
+	}
+
+}
